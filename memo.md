@@ -71,3 +71,14 @@
   - 画面右上のD-S-Hub/git-practiceをクリック
   - Codeボタンからhttpsもしくはsshをクリップボードにコピー
 - `$ git remote add upstream git@github.com:D-S-Hub/git-practice.git`
+
+## 51.fork元のリポにPRを作成する
+- 今回pullするが、pull先はfork元。
+  - `$ git pull upstream main`
+- ローカルリポからforkもとにプッシュしない。一旦自分のリモートリポへプッシュ。
+  - `$ git push origin new-feature`
+- fork元のリポジトリにプルリクエストを出す
+  - Compare & pull requestボタンをクリック
+  - base repositoryをfork元のリポジトリにする！
+  - コメントはきちんと書く。
+  
