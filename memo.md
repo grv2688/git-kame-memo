@@ -64,3 +64,10 @@
 - Conversationタブをクリックして、Merge pull requestボタンをクリック。必要に応じてコメントを書いて、confirm mergeボタンをクリック。
 - ローカルリポのmainブランチにプルする。（やり方は割愛）
 
+## 50.fork元のリポをローカルリポに登録する
+- ローカルリポにfork元のリポ情報をセットする
+  - `$ git remote add upstream <repo_url>`
+- 以下、ブラウザの操作
+  - 画面右上のD-S-Hub/git-practiceをクリック
+  - Codeボタンからhttpsもしくはsshをクリップボードにコピー
+- `$ git remote add upstream git@github.com:D-S-Hub/git-practice.git`
