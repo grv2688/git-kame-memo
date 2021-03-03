@@ -88,4 +88,5 @@
 - diff = 差分
 - いろいろなdiffがある。working directoryとstaging areaとリポジトリ
 
-
+## 54.リポジトリを準備する
+- リモートリポジトリを新規作成する。
