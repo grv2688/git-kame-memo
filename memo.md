@@ -81,4 +81,11 @@
   - Compare & pull requestボタンをクリック
   - base repositoryをfork元のリポジトリにする！
   - コメントはきちんと書く。
-  
+<br>
+<br>
+# セクション7: 差分(diff)を使いこなす
+## 53.セクション概要
+- diff = 差分
+- いろいろなdiffがある。working directoryとstaging areaとリポジトリ
+
+
