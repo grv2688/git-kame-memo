@@ -30,8 +30,9 @@
 - automatic mergeを体験してみよう。
 - `$ git log --all --oneline`で、他のブランチのコミットも表示される。
 - `$ git log --all --oneline --graph`で、少し視覚的になる。
-
-## 45.リモートリポからローカルリポに
+<br>
+<br>
+## 45.リモートリポからローカルリポに情報をfetchする
 - pull = fetch + merge
 - `$ git fetch <remote_ref>`
 - ローカルリポジトリの中にリモートリポジトリのブランチがある。
@@ -39,5 +40,13 @@
 - ローカルリポ内のリモートリポの情報は古くなる。
 - `$ git fetch `コマンドで↑の情報を更新できる。
 - `$ git checkout remotes/origin/main`でローカルリポ内のリモートリポのmainに移動できる。
+<br>
+<br>
+## 46.リモートリポからローカルリポにpullする
+- `$ git pull <remote_ref> <branchname>`
+- 指定したリモートリポ:remote_refの、指定したブランチ:branchnameを「今いるブランチ」にマージする
+- 基本、pushするまえにpullする。ビハインドなブランチをpushすることはできない。エラーが起きる。
+<br>
+<br>
 
 
