@@ -128,5 +128,7 @@
 - tagを付けるとリモートリポジトリからzip等でダウンロードできるようになる。
 
 ## 79. 特定のtagにcheckoutする
+- `$ git checkout tags/<tagname>`: コードを特定のバージョンの状態にする
+- `$ git fetch --tag --all`: 全てのtag情報をローカルに取得する
 
 ## 80. まとめ
