@@ -111,9 +111,10 @@
 
 ## 75. アノテーション付きtag(annotated tag)をつける
 - `$ git tag -a <tagname>`: annotated tagを作成する
-- 
 
 ## 76. tag同士のdiffを確認する
+- `git diff <tagname1> <tagname2>`: tag同士のdiffを表示する
+
 
 ## 77. 特定のコミットにtag付けする
 
