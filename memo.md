@@ -110,6 +110,8 @@
 - `$ git show <tagname>`: tagnameで指定したコミットの内容を表示する
 
 ## 75. アノテーション付きtag(annotated tag)をつける
+- `$ git tag -a <tagname>`: annotated tagを作成する
+- 
 
 ## 76. tag同士のdiffを確認する
 
