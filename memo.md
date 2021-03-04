@@ -115,10 +115,17 @@
 ## 76. tag同士のdiffを確認する
 - `git diff <tagname1> <tagname2>`: tag同士のdiffを表示する
 
-
 ## 77. 特定のコミットにtag付けする
+- `$ git tag -a <tagname> <commitID>`: 特定のコミットにtagを付ける
+- 順番に注意。tagnameが先。
 
 ## 78. tag情報をリモートリポにpushする
+- tagを付ける目的の一つは、バージョン情報の共有。リモートリポにtagを付けると効果を発揮。
+- `$ git push <remote_ref> <tagname>`: 指定のタグをリモートリポに送信する
+- 注意！！普通にgit push origin mainのようにpushするだけだと、tag情報はpushされない。
+- `$ git push <remote_ref> --tags`: 全てのタグ情報をpushする
+- `$ git push <remote_ref> :<tagname>`: 特定のtag情報をリモートリポから削除する
+- tagを付けるとリモートリポジトリからzip等でダウンロードできるようになる。
 
 ## 79. 特定のtagにcheckoutする
 
