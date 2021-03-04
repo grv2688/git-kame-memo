@@ -90,3 +90,33 @@
 
 ## 54.リポジトリを準備する
 - リモートリポジトリを新規作成する。
+
+## 55.p4mergeをセットアップする
+- p4merge = 無料で使えるdiffツール
+- https://www.perforce.com/downloads/visual-merge-tool
+
+# セクション8: rebaseを使ってブランチを統合しよう
+## 64. 基本的なrebaseのフロー
+- Rebaseのメリット
+  - 不要なマージコミットを作らない
+  - コミット履歴がすっきりする
+  - 将来マージするブランチを適宜rebaseしておくと、後々マージしやすくなる
+
+# セクション10: コミットにtag付けをしよう
+## 74. シンプルな(lightweight)tagをつける
+- `$ git tag <tagname>`: 最新のコミットにラベル付けをする 
+- `$ git tag --list`: tag一覧を表示する
+- `$ git tag --delete <tagname>`: 指定したtagを削除する
+- `$ git show <tagname>`: tagnameで指定したコミットの内容を表示する
+
+## 75. アノテーション付きtag(annotated tag)をつける
+
+## 76. tag同士のdiffを確認する
+
+## 77. 特定のコミットにtag付けする
+
+## 78. tag情報をリモートリポにpushする
+
+## 79. 特定のtagにcheckoutする
+
+## 80. まとめ
